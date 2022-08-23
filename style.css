@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    margin: 0;
+    margin: 0px;
 }
 
 .header {
@@ -51,14 +51,18 @@ body {
     align-items: flex-start;
 }
 
-.hero button {
+button {
     flex-grow: 0;
-    background-color: #3b83f6;
+    flex-shrink: 0;
+    background-color: #3882F6;
     color: white;
     font-size: 18px;
-    font-weight: bold;
     padding: 6px 35px;
     border-radius: 8px;
+    font-weight: bold;
+}
+
+.hero button {
     border: 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 10px 0px;
@@ -69,4 +73,116 @@ body {
     height: 300px;
     width: 500px;
     flex-shrink: 0;
+}
+
+.staff_intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 100px 100px 100px;
+}
+
+.staff_intro h1 {
+    margin: 0 0 40px 0;
+}
+
+.staff_cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff_photo {
+    height: 175px;
+    width: 175px;
+    border: 3px blue;
+    border-radius: 8px;
+}
+
+.person h4 {
+    margin: 4px 0px 2px 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.person p {
+    color: #202527;
+    margin: 0px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px;
+    background-color: #E5E7EB
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 18px;
+}
+
+figcaption {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.call_to_action {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_box {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 75px;
+}
+
+.call_text {
+    color: white;
+}
+
+.call_text h4 {
+    margin: 2px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.call_text p {
+    margin: 2px;
+    font-size: 18px;
+}
+
+.call_to_action button {
+    border: 3px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 100px;
 }
