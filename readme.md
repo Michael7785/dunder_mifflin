@@ -1,0 +1,1 @@
+This is a website for Dunder Mifflin, Inc., a small regional paper supply company in the Northeastern US. It uses HTML, CSS, and relies heavily on Flexbox.
