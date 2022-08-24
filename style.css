@@ -9,13 +9,15 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     background-color: #1F2937;
     color: white;
-    padding: 5px 100px;
+    padding: 10px 100px;
 }
 
 .right_links {
     display: flex;
+    flex-shrink: 0;
     list-style-type: none;
     gap: 25px;
     padding-left: 0px;
@@ -27,7 +29,7 @@ body {
     background-color: #1F2937;
     padding: 100px 100px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
 }
 
@@ -185,4 +187,9 @@ figcaption {
     background-color: #1F2937;
     color: white;
     padding: 30px 100px;
+}
+
+.header img {
+    height: 45px;
+    width: auto;
 }
