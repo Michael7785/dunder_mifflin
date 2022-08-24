@@ -72,7 +72,7 @@ button {
 
 .hero_image {
     background: gray;
-    height: 300px;
+    height: auto;
     width: 500px;
     flex-shrink: 0;
 }
